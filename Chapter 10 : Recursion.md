@@ -52,6 +52,7 @@
 	int sum = 0;
 	if (num == 0)
 		return sum;
+	else
 	sum = num % 10 + rec_calc(num / 10);
 	return sum;
     }
